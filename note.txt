@@ -1,0 +1,9 @@
+color
+black-#000000;
+grey- #626262;
+
+
+
+font
+family-family: "playfair", serif;
+font-family: "Ubuntu", serif;
