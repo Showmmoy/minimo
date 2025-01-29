@@ -9,7 +9,7 @@ body{
 /* common CSS end here */
 /* header start here  */
 header{
-    padding: 40px 0;
+    padding: 30px 0;
 
 
 }
@@ -17,13 +17,13 @@ header{
     margin: 0 auto;
     overflow: hidden;
     width: 90%;
-    border: 1px solid;
+    /* border: 1px solid; */
 }
 .logo{
     margin-top: 8px;
     float: left;
     width: 12%;
-    border: 1px solid;
+    /* border: 1px solid; */
 }
 .logo a{}
 .logo a img{
@@ -32,7 +32,7 @@ header{
 .menu{
     float: right;
     width: 75%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .menu ul{
     float: right;
@@ -43,18 +43,117 @@ header{
 }
 .menu ul li a{
     display: inline-block;
-    padding: 0 50px;
+    margin: 0 50px;
     color: #626262;
     text-transform: uppercase;
+    border-bottom: 1px solid transparent;
     text-decoration: none;
-    transition: 0.33s linear;
+    transition: 0.69s linear;
 }
 .menu ul li:last-child a{
-    padding-right: 0;
+    margin-right: 0;
 }
 .menu ul li a:hover {
-    color: #000000;
+    /* color: #000000; */
+    border-bottom: 1px solid #626262;
 }
+/* header ends here */
+/* Banner Start her */
+.banner{
 
+}
+.b_img{
 
-/* here ends here */
+}
+.b_img img{
+    width: 100%;
+}
+/* banner end here */
+/* article start here */
+.article {
+    padding: 100px 0 100px;
+}
+.container2{
+    margin: 0 auto;
+    width: 80%;
+    
+}
+.a_content{
+    
+}
+.c_link{
+    display: inline-block;
+    font-family: "ubuntu", serif;
+    font-size: 14px;
+    font-weight: 300;
+    color:#626262;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.c_h1{
+    margin: 20px 0 30px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.c_text{
+    margin: 0;
+    line-height: 24px;
+}
+.comment {
+    margin-top: 45px;
+}
+/* article end here */
+/* newsletter section start here */
+.news {
+    background-color: #f0f0f0;
+    padding: 70px 0;
+}
+.signup{
+    text-align: center;
+}
+.title{
+    font-weight: 400;
+    font-size: 30px;
+}
+.s_h1{
+    color: #333333;
+    margin-top: 0;
+    margin-bottom:70px;
+}
+.s_form{
+    width: 400px;
+    position: relative;
+    margin: 0 auto;
+}
+.s_form input {
+    font-family: 'playfair display', serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #626262;
+    width: 345px;
+    height: 45px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    background: transparent;
+    padding-left: 5px;
+    padding-right: 45px;
+}
+.s_form input:focus{
+    outline: 0;
+}
+.s_form button{
+    position: absolute;
+    top: 15px;
+    right: 0;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    
+}
+.s_form button:focus{
+    outline: 0;
+}
+.s_form button img{
+
+}
+/* newsletter section end here */

@@ -5,5 +5,5 @@ grey- #626262;
 
 
 font
-family-family: "playfair", serif;
+font-family: "Playfair Display", serif;
 font-family: "Ubuntu", serif;
