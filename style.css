@@ -191,7 +191,7 @@ padding: 0 0 100px;
     font-weight: 400;
     font-size: 16px;
     color: #626262;
-    text-transform: uppercase;
+    
     border: 1px solid #626262;
     padding: 10px 20px;
     background: transparent;
@@ -213,7 +213,7 @@ footer {
 }
 
 .footer-content {
-    width: 1000px;
+    width: 1214px;
     margin: 0 auto;
     overflow: hidden; 
 }
